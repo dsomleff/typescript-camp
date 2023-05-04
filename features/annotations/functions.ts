@@ -44,3 +44,24 @@ const logger = (message: string): void => {
 function raiseError(message: string): never {
     throw new Error(message);
 }
+
+/**
+ * Destructuring with Annotations
+ */
+const todayWeather = {
+    date: new Date(),
+    weather: 'sunny'
+};
+
+const logWeather = ({
+    date,
+    weather
+}: {
+    date: Date;
+    weather: string;
+}): void => {
+    console.log(date);
+    console.log(weather);
+};
+
+logWeather(todayWeather);
