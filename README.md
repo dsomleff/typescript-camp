@@ -5,4 +5,4 @@ All code was created during the watching [Master Typescript by learning popular 
 - `features/annotaions` - Type Annotations functions (arrow, anonymous, regular, void and never returning types), 
   arrays 
   and 
-  objects. In short, we always rely on Type Inference.
+  objects, tuples.
