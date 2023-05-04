@@ -21,8 +21,26 @@ function divide(a: number, b: number): number {
 }
 
 /**
- * Anninymus function type example
+ * Anonymous function type example
  */
 const multiply = function(a: number, b: number): number {
   return a * b;
 };
+
+/**
+ * Void for functions that not return anything
+ * Void support null and undefined as a return statement
+ */
+const logger = (message: string): void => {
+    console.log(message);
+};
+
+/**
+ * The { never } type contains no value.
+ * The {never} type represents the return type of function
+ * that always throws an error or a function that contains an
+ * indefinite loop.
+ */
+function raiseError(message: string): never {
+    throw new Error(message);
+}
