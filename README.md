@@ -6,3 +6,4 @@ All code was created during the watching [Master Typescript by learning popular 
   arrays 
   and 
   objects, tuples, interfaces.
+- `maps` - basic example of interface usage with the classes.
