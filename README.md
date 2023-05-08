@@ -8,4 +8,4 @@ projects](https://www.udemy.com/course/typescript-the-complete-developers-guide/
   and 
   objects, tuples, interfaces.
 - `maps` - basic example of interface usage with the classes.
-- `react/basic` - types around props & states
+- `react/basic` - types around props & states, events & refs.
