@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import {useTypedSelector} from "../hooks/useTypedSelector";
 import {useActions} from "../hooks/useActions";
-import {Simulate} from "react-dom/test-utils";
 
 const RepositoriesList: React.FC = () => {
     const [term, setTerm] = useState('');
